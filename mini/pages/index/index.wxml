@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="contain">
+  <image class="bg-image" src="/resource/images/bg.png"></image>
+  <switch style="margin-top: 10%; margin-left: 10%;" bindchange="changeColor"></switch>
+  <view class="text-view">福
+    <canvas class="write-canvas" disable-scroll="true" id="myCanvas" bindtouchstart="writeStart" bindtouchmove="writeMove" bindtouchend="writeEnd" type="2d">
+    </canvas>
+  </view>
+  <view class="opration-view">
+    <view class="opration-button" style="width: 20%;" bindtap="back">撤销</view>
+    <view class="opration-button" style="width: 60%;" bindtap="save">保存到相册</view>
+    <view class="opration-button" style="width: 20%;" bindtap="rewrite">重写</view>
+  </view>
+</view>

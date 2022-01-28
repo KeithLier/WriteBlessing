@@ -1,0 +1,81 @@
+/**index.wxss**/
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.contain {
+  height: 100%;
+  width: 100%;
+} 
+.bg-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -999;
+}
+
+.text-view {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  font-size: 600rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  opacity: 0.3;
+  position: relative;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.5);
+  flex: 5;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 4px solid rgb(255, 255, 255, 0.25);
+}
+.write-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+
+}
+.opration-view {
+  display: flex;
+  width: 100%;
+  position: absolute; 
+  flex-direction: row;
+  justify-content: center;
+  bottom: 88rpx;
+}
+
+.opration-button {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* /swtich整体大小及背景色/ */
+.wx-switch-input {
+width: 100rpx !important;
+height: 56rpx !important;
+background: #ffe0b2 !important;
+border: #ffe0b2!important;
+box-sizing: border-box;
+}
+/* /白色样式（false的样式）/ */
+.wx-switch-input::before {
+width: 100rpx !important;
+height: 56rpx !important;
+background: #000000 !important;
+}
+/* /绿色样式（true的样式）/ */
+.wx-switch-input::after {
+width: 65rpx !important;
+height: 56rpx !important;
+border: #ffe0b2 !important;
+}
