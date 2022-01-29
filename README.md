@@ -12,8 +12,8 @@
 ### 各端实现
 [微信小程序](https://github.com/KeithLier/WriteBlessing/tree/main/mini)
 
-Flutter: 敬请期待
+[Flutter](https://github.com/KeithLier/WriteBlessing/tree/main/flutter)
 
-iOS: 敬请期待
+[iOS](https://github.com/KeithLier/WriteBlessing/tree/main/iOS)
 
 Vue: 敬请期待
