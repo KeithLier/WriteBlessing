@@ -17,6 +17,7 @@
 		5362A6B327A3F08000AEC035 /* iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362A6B227A3F08000AEC035 /* iOSTests.m */; };
 		5362A6BD27A3F08000AEC035 /* iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362A6BC27A3F08000AEC035 /* iOSUITests.m */; };
 		5362A6BF27A3F08000AEC035 /* iOSUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362A6BE27A3F08000AEC035 /* iOSUITestsLaunchTests.m */; };
+		5362A6CF27A4C7BB00AEC035 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362A6CE27A4C7BB00AEC035 /* CanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5362A6B827A3F08000AEC035 /* iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5362A6BC27A3F08000AEC035 /* iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUITests.m; sourceTree = "<group>"; };
 		5362A6BE27A3F08000AEC035 /* iOSUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5362A6CD27A4C7BB00AEC035 /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		5362A6CE27A4C7BB00AEC035 /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5362A69A27A3F07E00AEC035 /* SceneDelegate.m */,
 				5362A69C27A3F07E00AEC035 /* ViewController.h */,
 				5362A69D27A3F07E00AEC035 /* ViewController.m */,
+				5362A6CD27A4C7BB00AEC035 /* CanvasView.h */,
+				5362A6CE27A4C7BB00AEC035 /* CanvasView.m */,
 				5362A69F27A3F07E00AEC035 /* Main.storyboard */,
 				5362A6A227A3F07F00AEC035 /* Assets.xcassets */,
 				5362A6A427A3F07F00AEC035 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				5362A69827A3F07E00AEC035 /* AppDelegate.m in Sources */,
 				5362A6A927A3F07F00AEC035 /* main.m in Sources */,
 				5362A69B27A3F07E00AEC035 /* SceneDelegate.m in Sources */,
+				5362A6CF27A4C7BB00AEC035 /* CanvasView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
